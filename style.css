@@ -9,7 +9,7 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
-    background: rgb(1,1,3);
+    
 background: linear-gradient(29deg, #f8acff 0%,#696eff 97%);
     
 }
