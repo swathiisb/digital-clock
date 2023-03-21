@@ -9,13 +9,18 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
-    background-color: aqua;
-    font-family: 'Segoe UI'
+    
 }
+#container {
+    background: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
 
 .clock{
-    height:100vh;
-    width:50%;
+    height:100px;
+    width:190px;
     display:flex;
     align-items:center;
     justify-content: space-between;
@@ -24,19 +29,19 @@ body{
 
 .clock div{
     background-color:white;
-    height:100px;
-    width:140px;
+    height:100%;
+    width:180px;
     align-items:center;
     justify-content: center;
-    font-size:4rem;
-    border-radius:0.3rem;
+    font-size:60px;
+    border-radius:5px;
     display:flex;
     box-shadow:0 3px 10px rgb(0,0,0,0.5);
     letter-spacing:3px;
 }
 
 .clock span{
-    font-size:3rem;
+    font-size:60px;
     color:aliceblue;
     font-weight:bold;
 
